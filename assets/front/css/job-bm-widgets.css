@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.job_bm_widget_latest_job, .job_bm_widget_expired_today, .job_bm_widget_featured_job {
+	list-style: disc outside;
+}
+
+.job_bm_widget_latest_job li, .job_bm_widget_expired_today li, .job_bm_widget_featured_job li {
+	padding: 8px 0;
+	border-bottom: 1px solid #ddd;
+	margin-left: 36px;
+}
+
+.job_bm_widget_latest_job li:last-child ,
+.job_bm_widget_expired_today li:last-child ,
+.job_bm_widget_featured_job li:last-child {
+	border-bottom: none;
+}
+
+
+
+.job_bm_widget_latest_job a ,
+.job_bm_widget_expired_today a ,
+.job_bm_widget_featured_job a  {
+	text-decoration:none;
+	outline:none;
+}
+
+
+
+
